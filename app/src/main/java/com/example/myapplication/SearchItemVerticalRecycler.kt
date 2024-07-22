@@ -1,9 +1,11 @@
 package com.example.myapplication
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -37,6 +39,10 @@ class SearchItemVerticalRecycler(private val context: Context, private val array
             itemName.text = item.itemName
             rating.text = item.rating
             price.text = item.price
+            image.setOnClickListener{
+                val intent = Intent(context, ItemDetail::class.java)
+                context.startActivity(intent)
+            }
         }
     }
 }
