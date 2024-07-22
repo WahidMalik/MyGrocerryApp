@@ -14,12 +14,14 @@ class ItemDetail : AppCompatActivity() {
     private lateinit var itemDetailRecycleClass: ItemDetailRecycleClass
     private lateinit var arrayList: ArrayList<ItemDetaildataClass>
     lateinit var reviewRecycleView : RecyclerView
+    lateinit var arrayReviewData : ArrayList<ReviewData>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_item_detail)
         itemDetailRecycleView = findViewById(R.id.itemDetailRecycleView)
+        reviewRecycleView = findViewById(R.id.revieRecycle)
         toolbar = findViewById(R.id.toolbarItemdetail)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayShowTitleEnabled(false)
@@ -35,5 +37,19 @@ class ItemDetail : AppCompatActivity() {
         val horizontalLayoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         itemDetailRecycleView.layoutManager = horizontalLayoutManager
         itemDetailRecycleView.adapter = itemDetailRecycleClass
+
+        arrayReviewData = ArrayList()
+        arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,4.5f))
+        arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,5.0f))
+        arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,2.5f))
+        arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,3.5f))
+        arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,1.3f))
+
+        reviewRecycleView.layoutManager = LinearLayoutManager(this)
+        reviewRecycleView.adapter = ReviewRecycle(this, arrayReviewData)
+
+
+
+
     }
 }
