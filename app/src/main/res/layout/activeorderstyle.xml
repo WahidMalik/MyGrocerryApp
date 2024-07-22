@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/activeorderImage"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+             />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/activeOrderproductId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunsilk"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/activeOrderbrandId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oliver"
+                android:layout_marginTop="3dp" />
+            <TextView
+                android:id="@+id/activeOrderpriceId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 370"
+                android:textStyle="bold"
+                android:textColor="#E17F00"
+                android:layout_marginTop="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/activeOrderpocessingId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Processing"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/activeOrderTrackbuttonId"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/smallbutton"
+                android:layout_marginTop="30dp"
+                android:textColor="#FFF"
+                android:textAllCaps="false"
+                android:text="Track your order"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

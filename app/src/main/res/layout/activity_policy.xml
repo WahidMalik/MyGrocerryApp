@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".Policy">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/policyToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E17F00"
+            app:titleTextColor="#FFF"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privacy and Policy"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to [Your E-commerce App Name] (“we”, “our”, “us”).
+        We are committed to protecting your privacy and ensuring that your personal information
+is handled in a safe and responsible manner. This Privacy Policy outlines how we collect,
+use, disclose, and safeguard your information when you use our application"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and conditions"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You must be at least 18 years old to use our app or
+have the permission of a parent or guardian.You agree to use our app only for lawful
+purposes and in a manner that does not infringe the rights of, restrict, or inhibit
+anyone else's use and enjoyment of the app. You are responsible for maintaining the
+confidentiality of your account information and for all activities that occur under your account."
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
