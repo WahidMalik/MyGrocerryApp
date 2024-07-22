@@ -12,14 +12,14 @@
 
         <ImageView
             android:id="@+id/activeorderImage"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="@dimen/_85sdp"
             android:layout_weight="1"
-            android:scaleType="centerCrop"
+            android:scaleType="fitXY"
              />
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="@dimen/_1sdp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:orientation="vertical"
@@ -31,13 +31,13 @@
                 android:layout_height="wrap_content"
                 android:text="Sunsilk"
                 android:textStyle="bold"
-                android:textSize="15sp" />
+                android:textSize="@dimen/_13ssp" />
             <TextView
                 android:id="@+id/activeOrderbrandId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Oliver"
-                android:layout_marginTop="3dp" />
+                android:layout_marginTop="@dimen/_3sdp" />
             <TextView
                 android:id="@+id/activeOrderpriceId"
                 android:layout_width="wrap_content"
@@ -45,15 +45,15 @@
                 android:text="Rs. 370"
                 android:textStyle="bold"
                 android:textColor="#E17F00"
-                android:layout_marginTop="30dp" />
+                android:layout_marginTop="@dimen/_30sdp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="@dimen/_1sdp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:padding="8dp">
+            android:layout_margin="@dimen/_6sdp">
 
             <TextView
                 android:id="@+id/activeOrderpocessingId"
@@ -61,14 +61,14 @@
                 android:layout_height="wrap_content"
                 android:text="Processing"
                 android:textStyle="bold"
-                android:textSize="15sp" />
+                android:textSize="@dimen/_12ssp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activeOrderTrackbuttonId"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_35sdp"
                 android:background="@drawable/smallbutton"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="@dimen/_30sdp"
                 android:textColor="#FFF"
                 android:textAllCaps="false"
                 android:text="Track your order"
