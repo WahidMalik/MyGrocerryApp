@@ -13,6 +13,7 @@ class ItemDetail : AppCompatActivity() {
     private lateinit var itemDetailRecycleView: RecyclerView
     private lateinit var itemDetailRecycleClass: ItemDetailRecycleClass
     private lateinit var arrayList: ArrayList<ItemDetaildataClass>
+    lateinit var reviewRecycleView : RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
