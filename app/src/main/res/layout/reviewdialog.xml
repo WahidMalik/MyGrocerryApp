@@ -110,26 +110,26 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/cancelButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_35sdp"
                 android:background="@drawable/transparentbutton"
                 android:text="Cancel"
                 android:textColor="#000"
                 android:textStyle="bold"
-                android:layout_marginLeft="@dimen/_60sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginBottom="@dimen/_20sdp"
                 android:textAllCaps="false"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/logoutButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_35sdp"
                 android:background="@drawable/smallbutton"
                 android:text="Submit"
                 android:textAllCaps="false"
                 android:textColor="#FFF"
-                android:layout_marginRight="@dimen/_60sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
                 android:layout_gravity="end"
                 android:textStyle="bold"
                 android:layout_marginTop="@dimen/_10sdp"

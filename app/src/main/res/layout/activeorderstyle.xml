@@ -13,8 +13,9 @@
         <ImageView
             android:id="@+id/activeorderImage"
             android:layout_width="@dimen/_1sdp"
-            android:layout_height="@dimen/_85sdp"
+            android:layout_height="@dimen/_95sdp"
             android:layout_weight="1"
+            android:layout_margin="@dimen/_6sdp"
             android:scaleType="fitXY"
              />
 
@@ -23,7 +24,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:orientation="vertical"
-            android:padding="8dp">
+            android:layout_margin="@dimen/_6sdp"
+            >
 
             <TextView
                 android:id="@+id/activeOrderproductId"
