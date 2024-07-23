@@ -18,8 +18,8 @@
         android:layout_gravity="center"
         >
     <ImageView
-        android:layout_width="@dimen/_130sdp"
-        android:layout_height="@dimen/_130sdp"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/_20sdp"
         android:src="@drawable/shopping_cart"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:text="Order Successful!"
         android:layout_gravity="center"
-        android:textSize="@dimen/_25ssp"
+        android:textSize="@dimen/_22ssp"
         android:textStyle="bold"
         android:layout_margin="@dimen/_5sdp"
         />
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:text="You have  successfully place order"
         android:layout_gravity="center"
-        android:textSize="@dimen/_13ssp"
+        android:textSize="@dimen/_12ssp"
         android:textStyle="bold"
         android:layout_margin="@dimen/_5ssp"
         />

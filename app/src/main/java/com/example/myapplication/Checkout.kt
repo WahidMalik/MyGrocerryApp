@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat
 class Checkout : AppCompatActivity() {
 
 
-    lateinit var paymentoption : TextView
+    lateinit var paymentoption: TextView
     lateinit var checkoutToolbar: Toolbar
     lateinit var checkoutButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +24,7 @@ class Checkout : AppCompatActivity() {
 
         checkoutToolbar = findViewById(R.id.checkoutToolbar)
         setSupportActionBar(checkoutToolbar)
-        supportActionBar?.title="Checkout"
+        supportActionBar?.title = "Checkout"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
 
@@ -40,7 +40,19 @@ class Checkout : AppCompatActivity() {
             dialog.setContentView(R.layout.orderdialog)
             dialog.setCancelable(false)
             dialog.show()
-        }
 
+            val viewOrderButtonDialog = dialog.findViewById<Button>(R.id.vieworderButton)
+            val continueShoppingButtonDialog =
+                dialog.findViewById<Button>(R.id.continueshoppingButton)
+            viewOrderButtonDialog.setOnClickListener {
+                dialog.dismiss()
+            }
+            continueShoppingButtonDialog.setOnClickListener {
+                dialog.dismiss()
+
+
+            }
+
+        }
     }
 }
