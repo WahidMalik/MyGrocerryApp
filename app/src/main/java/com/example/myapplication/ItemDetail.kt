@@ -24,7 +24,9 @@ class ItemDetail : AppCompatActivity() {
         reviewRecycleView = findViewById(R.id.revieRecycle)
         toolbar = findViewById(R.id.toolbarItemdetail)
         setSupportActionBar(toolbar)
-        supportActionBar?.setDisplayShowTitleEnabled(false)
+        supportActionBar?.title = "Item Details"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
 
         arrayList = ArrayList()
         arrayList.add(ItemDetaildataClass(R.drawable.b, 1))

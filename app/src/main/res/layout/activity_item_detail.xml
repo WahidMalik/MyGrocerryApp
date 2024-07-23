@@ -22,7 +22,7 @@
                 android:id="@+id/toolbarItemdetail"
                 android:layout_width="match_parent"
                 android:background="#E17F00"
-                app:title="item details"
+                app:titleTextColor="#FFF"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.appbar.AppBarLayout>
 
