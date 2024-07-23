@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/addressProfileEditToolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_43sdp"
             android:titleTextColor="#FFF"
             android:background="#E17F00"
             />
@@ -25,9 +25,9 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:rowCount="1"
         android:columnCount="2"
         >
@@ -36,35 +36,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Full Name"
-            android:layout_marginLeft="10dp"
-            android:textSize="17sp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
             android:textStyle="bold" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Input name"
+            android:hint="Input name"
             android:background="@drawable/edittextbackground"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
             android:layout_gravity="end"
             />
     </GridLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:background="#000"
         />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:rowCount="1"
         android:columnCount="2"
         >
@@ -73,37 +73,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mobile no."
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:textSize="17sp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
             android:textStyle="bold" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Input mobile no."
-            android:layout_marginTop="10dp"
+            android:hint="Input mobile no."
+            android:layout_marginTop="@dimen/_10sdp"
             android:background="@drawable/edittextbackground"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
             android:layout_gravity="end"
             />
     </GridLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:background="#000"
         />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:rowCount="1"
         android:columnCount="2"
         >
@@ -112,17 +112,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Area"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:textSize="17sp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
             android:textStyle="bold" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Input area"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:hint="Input area"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:layout_gravity="end"
             android:background="@drawable/edittextbackground"
             />
@@ -130,19 +130,19 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:background="#000"
         />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:rowCount="1"
         android:columnCount="2"
         >
@@ -151,37 +151,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Address"
-            android:layout_marginLeft="10dp"
-            android:textSize="17sp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:textStyle="bold" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Input address"
+            android:hint="Input address"
             android:background="@drawable/edittextbackground"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:layout_gravity="end"
             />
     </GridLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:background="#000"
         />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:rowCount="1"
         android:columnCount="2"
         >
@@ -190,37 +190,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Landmark (opt)"
-            android:layout_marginLeft="10dp"
-            android:textSize="17sp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:textStyle="bold" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Input landmark"
+            android:hint="Input landmark"
             android:inputType="date"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
             android:layout_gravity="end"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:background="@drawable/edittextbackground"
             />
     </GridLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:background="#000"
         />
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:rowCount="1"
         android:columnCount="3"
         >
@@ -229,32 +229,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Label"
-            android:layout_marginLeft="10dp"
-            android:textSize="17sp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:textStyle="bold" />
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_30sdp"
             android:background="@drawable/transparentbutton"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="130dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_80sdp"
             android:text="Office"
             android:textColor="#E17F00"
             />
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_30sdp"
             android:background="@drawable/transparentbutton"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:text="Home"
             android:textColor="#E17F00"
+            android:layout_marginLeft="@dimen/_10sdp"
             android:gravity="center"
-            android:layout_gravity="end"
             />
-
-
     </GridLayout>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -262,13 +259,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:background="@drawable/smallbutton"
         android:text="Save Changes"
         android:textAllCaps="false"
         android:textColor="#FFF"
-        android:textSize="15sp"
-        android:padding="10dp"
+        android:textSize="@dimen/_13ssp"
+        android:padding="@dimen/_10sdp"
         android:textStyle="bold"
         />
 

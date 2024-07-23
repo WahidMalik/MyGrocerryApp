@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/addressProfileToolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_43sdp"
             android:background="#E17F00"
             app:titleTextColor="#FFF"
             />
@@ -24,19 +24,19 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="@dimen/_1sdp"
         android:background="#000"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
         />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
         android:rowCount="2"
         android:columnCount="2"
         >
@@ -45,8 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Full Name"
-            android:layout_marginLeft="10dp"
-            android:textSize="17sp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
             android:textStyle="bold" />
         <TextView
             android:id="@+id/permanentEditAddressButton"
@@ -54,30 +54,30 @@
             android:layout_height="wrap_content"
             android:text="Edit"
             android:clickable="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
             android:layout_gravity="end"
-            android:textSize="18sp"
+            android:textSize="@dimen/_15ssp"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="@dimen/_30sdp"
             android:background="@drawable/transparentbutton"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
             android:text="Home"
             android:textColor="#E17F00"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="@dimen/_30sdp"
             android:background="@drawable/transparentbutton"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
             android:text="Default Delievery Address"
             android:textColor="#E17F00"
             android:gravity="center"
-            android:padding="4dp"
+            android:padding="@dimen/_4sdp"
             />
     </GridLayout>
 
@@ -85,32 +85,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="House # 110-A Seham Rawalpindi"
-        android:layout_margin="10dp"
-        android:textSize="15dp"
+        android:layout_margin="@dimen/_10sdp"
+        android:textSize="@dimen/_13ssp"
         android:textStyle="bold"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="03025159977"
-        android:layout_marginLeft="10dp"
-        android:textSize="15sp" />
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textSize="@dimen/_13ssp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="@dimen/_1sdp"
         android:background="#000"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
         />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
         android:rowCount="2"
         android:columnCount="2"
         >
@@ -119,8 +119,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Full Name"
-            android:layout_marginLeft="10dp"
-            android:textSize="17sp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_13ssp"
             android:textStyle="bold" />
         <TextView
             android:id="@+id/tempEditAddressButton"
@@ -128,30 +128,30 @@
             android:layout_height="wrap_content"
             android:text="Edit"
             android:clickable="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
             android:layout_gravity="end"
-            android:textSize="18sp"
+            android:textSize="@dimen/_15ssp"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="@dimen/_30sdp"
             android:background="@drawable/transparentbutton"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
             android:text="Home"
             android:textColor="#E17F00"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="@dimen/_30sdp"
             android:background="@drawable/transparentbutton"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
             android:text="Default Delievery Address"
             android:textColor="#E17F00"
             android:gravity="center"
-            android:padding="4dp"
+            android:padding="@dimen/_4sdp"
             />
     </GridLayout>
 
@@ -159,15 +159,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="House # 110-A Seham Rawalpindi"
-        android:layout_margin="10dp"
-        android:textSize="15dp"
+        android:layout_margin="@dimen/_10sdp"
+        android:textSize="@dimen/_13ssp"
         android:textStyle="bold"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="03025159977"
-        android:layout_marginLeft="10dp"
-        android:textSize="15sp" />
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:textSize="@dimen/_13ssp" />
 
 </LinearLayout>
