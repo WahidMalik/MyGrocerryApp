@@ -25,10 +25,9 @@ class OrderActiveFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         arrayActiveOrder = ArrayList()
-        arrayActiveOrder.add(ActiveOrderData(R.drawable.b, "Sunsilk", "John", 550))
-        arrayActiveOrder.add(ActiveOrderData(R.drawable.b, "Sunsilk", "John", 550))
-        arrayActiveOrder.add(ActiveOrderData(R.drawable.b, "Sunsilk", "John", 550))
-        arrayActiveOrder.add(ActiveOrderData(R.drawable.b, "Sunsilk", "John", 550))
+        arrayActiveOrder.add(ActiveOrderData(R.drawable.b, "Sunsilk", "John", 550,"Processing", R.drawable.smallbutton))
+        arrayActiveOrder.add(ActiveOrderData(R.drawable.b, "Sunsilk", "John", 550,"Processing", R.drawable.smallbutton))
+
 
         activeOrderRecycle = view.findViewById(R.id.activeOrderRecycleView)
         activeOrderRecycle.layoutManager = LinearLayoutManager(requireContext())

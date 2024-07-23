@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context=".TrackOrder">
 
 
@@ -75,10 +76,12 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
             android:background="@drawable/circlewhite"
+            android:layout_gravity="center"
             android:gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
             >
 
             <TextView
@@ -227,7 +230,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp"
-            android:text="Description"
+            android:text="1 Sunsilk long hair medium pack "
             android:layout_marginLeft="@dimen/_20sdp"
             />
         <View
