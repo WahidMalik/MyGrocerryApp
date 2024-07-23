@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,6 +9,12 @@
     android:background="#FFF"
     tools:context=".LogIn">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -16,12 +22,11 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbarLogin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_40sdp"
             android:background="#E17F00"
             android:title="Log In"
             app:titleTextColor="#FFF"
-            android:minHeight="?attr/actionBarSize"
-            android:theme="?attr/actionBarTheme" />
+            />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -29,24 +34,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="@dimen/_16sdp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textSize="15sp"
+            android:textSize="@dimen/_13ssp"
             android:textColor="#000"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
 
         <EditText
             android:id="@+id/nameEnter"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="40dp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_30sdp"
             android:background="@drawable/editbox"
             android:layout_gravity="center"/>
 
@@ -54,33 +59,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Password"
-            android:textSize="15sp"
+            android:textSize="@dimen/_13ssp"
             android:textColor="#000"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/_17sdp"
             />
 
         <EditText
             android:id="@+id/passwordEnter"
             android:inputType="textPassword"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="@dimen/_33sdp"
             android:background="@drawable/editbox"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_30sdp"
             android:layout_gravity="center"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:orientation="horizontal"
             >
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="@dimen/_10sdp"
                 android:background="#FFF"
                 android:layout_gravity="bottom" />
 
@@ -90,11 +95,11 @@
                 android:text="Remember me"
                 android:textColor="#000"
                 android:layout_gravity="bottom"
-                android:layout_marginBottom="10dp" />
+                android:layout_marginBottom="@dimen/_10sdp" />
 
             <View
-                android:layout_width="0dp"
-                android:layout_height="0dp"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="@dimen/_1sdp"
                 android:layout_weight="1" />
 
             <TextView
@@ -105,23 +110,23 @@
                 android:text="Forget Password"
                 android:textColor="#000"
                 android:layout_gravity="bottom"
-                android:layout_marginBottom="10dp" />
+                android:layout_marginBottom="@dimen/_10sdp" />
 
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/logInButtonInLogin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_35sdp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:text="Log In"
             android:textColor="#FFF"
-            android:textSize="20sp"
+            android:textSize="@dimen/_20ssp"
             android:textAllCaps="false"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
             android:background="@drawable/smallbutton"
             />
     </LinearLayout>
@@ -130,7 +135,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="---------     OR  ---------"
-        android:textSize="20sp"
+        android:textSize="@dimen/_15ssp"
         android:textStyle="bold"
         android:textColor="#000"
         android:layout_gravity="center"
@@ -138,17 +143,17 @@
 
     <ImageView
         android:id="@+id/startingImage"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_35sdp"
         android:layout_gravity="center"
         android:src="@drawable/circlestore"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/_20sdp"
         />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="@dimen/_23sdp"
         android:orientation="horizontal"
         android:gravity="center_horizontal">
 
@@ -156,10 +161,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Do you have Any Account?"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:textStyle="bold"
             android:textColor="#000"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
 
         <TextView
@@ -168,13 +173,14 @@
             android:layout_height="wrap_content"
             android:text="Sign Up"
             android:textColor="#D3840F"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:textStyle="bold"
             android:clickable="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             />
 
     </LinearLayout>
+    </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
