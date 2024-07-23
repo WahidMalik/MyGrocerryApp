@@ -12,9 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/bottonnavigationmenu"
-        android:outlineSpotShadowColor="#E17F00"
+        app:itemTextColor="@drawable/bottomnavigationiconcolor"
+        app:itemIconTint="@drawable/bottomnavigationiconcolor"
         android:layout_alignParentBottom="true"
-        app:itemTextColor="@color/black"
         android:theme="@style/Theme.MyApplication"
         />
 

@@ -43,10 +43,7 @@ class CartFragment : Fragment() {
         arrayCartItems = ArrayList()
         arrayCartItems.add(CartDetails(R.drawable.b, "Sunsilk", 550, 3, "ABC"))
         arrayCartItems.add(CartDetails(R.drawable.b, "Sunsilk", 550, 3, "ABC"))
-        arrayCartItems.add(CartDetails(R.drawable.b, "Sunsilk", 550, 3, "ABC"))
-        arrayCartItems.add(CartDetails(R.drawable.b, "Sunsilk", 550, 3, "ABC"))
-        arrayCartItems.add(CartDetails(R.drawable.b, "Sunsilk", 550, 3, "ABC"))
-        arrayCartItems.add(CartDetails(R.drawable.b, "Sunsilk", 550, 3, "ABC"))
+
 
         cartadapter = CartItemRecycle(requireContext(), arrayCartItems)
         val cartLayoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
