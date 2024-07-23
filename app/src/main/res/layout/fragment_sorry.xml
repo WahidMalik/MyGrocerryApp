@@ -33,7 +33,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Try different Keywords"
+        android:text="Try Different Keywords"
         android:textSize="@dimen/_12ssp"
         android:textStyle="bold"
         android:layout_gravity="center"
@@ -42,12 +42,4 @@
         android:textColor="#E17F00"
         android:padding="@dimen/_10sdp"
         />
-
-
-
-
-
-
-
-
 </LinearLayout>
