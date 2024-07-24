@@ -12,61 +12,61 @@
     <Spinner
         android:id="@+id/spinnerClothes"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray"/>
 
     <Spinner
         android:id="@+id/spinnerToys"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray"/>
     <Spinner
         android:id="@+id/spinnerGear"
         android:layout_width="match_parent"
-        android:layout_height="50dp"/>
+        android:layout_height="@dimen/_35sdp"/>
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray"/>
 
     <Spinner
         android:id="@+id/spinnerNursery"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray"/>
     <Spinner
         android:id="@+id/spinnerFeeding"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray"/>
     <Spinner
         android:id="@+id/spinnerHealth"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray"/>
 
     <Spinner
         android:id="@+id/spinnerDipering"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray"/>
 
 

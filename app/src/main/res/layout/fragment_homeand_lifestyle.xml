@@ -10,70 +10,70 @@
     <Spinner
         android:id="@+id/spinnerFurniture"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerDecor"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerKitchen"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerBedding"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerBath"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerStorage"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerOutdoor"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 </LinearLayout>

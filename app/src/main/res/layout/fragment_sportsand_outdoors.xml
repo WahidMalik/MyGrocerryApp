@@ -5,75 +5,75 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="#C1BBBB"
-    tools:context=".SportsAndOutdoorsFragment">
+    tools:context=".SportsandOutdoorsFragment">
 
     <Spinner
         android:id="@+id/spinnerFitness"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerCamping"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_3sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerCycling"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_3sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerTeamSports"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerWaterSports"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerWinterSports"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 
     <Spinner
         android:id="@+id/spinnerOutdoorRecreation"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="@dimen/_35sdp" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="@dimen/_2sdp"
         android:background="@android:color/darker_gray" />
 </LinearLayout>

@@ -13,7 +13,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/profileToolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/_43sdp"
         android:titleTextColor="#FFF"
         android:background="#E17F00"
         />
@@ -24,40 +24,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:gravity="center"
         >
 
         <ImageView
             android:id="@+id/profileImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
             android:src="@drawable/profileicon"
             android:background="@drawable/circleimage"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:text="Wahid Malik"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15sdp"
             />
     </LinearLayout>
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_10sdp"
         android:rowCount="9"
         android:columnCount="3"
         >
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/edit"
             android:scaleType="fitXY"
             />
@@ -65,125 +65,125 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Edit Profile"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15sdp"
             android:gravity="center"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="@dimen/_20sdp"
            />
         <ImageButton
             android:id="@+id/editProfileButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/forward"
             android:scaleType="fitXY"
             android:layout_gravity="end"
             android:background="#FFF"
             />
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/homeicon"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             android:scaleType="fitXY"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Address"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:gravity="center"
-            android:layout_marginTop="3dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
             />
         <ImageButton
             android:id="@+id/addressProfileButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/forward"
             android:scaleType="fitXY"
             android:layout_gravity="end"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             android:background="#FFF"
             />
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/edit"
             android:scaleType="fitXY"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Notification"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:gravity="center"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <ImageButton
             android:id="@+id/notificaionsImageButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/forward"
             android:scaleType="fitXY"
             android:layout_gravity="end"
             android:background="#FFF"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/notifications"
             android:scaleType="fitXY"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Language"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:gravity="center"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/forward"
             android:scaleType="fitXY"
             android:layout_gravity="end"
             android:background="#FFF"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/wallet"
             android:scaleType="fitXY"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Wallet"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:gravity="center"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <ImageButton
             android:id="@+id/walletProfileButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/forward"
             android:scaleType="fitXY"
             android:layout_gravity="end"
             android:background="#FFF"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/policy"
             android:scaleType="fitXY"
             />
@@ -191,27 +191,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Policies"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:gravity="center"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <ImageButton
             android:id="@+id/policyProfileButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/forward"
             android:scaleType="fitXY"
             android:layout_gravity="end"
             android:background="#FFF"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/help"
             android:scaleType="fitXY"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -219,35 +219,35 @@
             android:text="Help and center"
             android:textSize="20sp"
             android:gravity="center"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <ImageButton
             android:id="@+id/helpProfileButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/forward"
             android:scaleType="fitXY"
             android:layout_gravity="end"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             android:background="#FFF"
             />
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:src="@drawable/logout"
             android:scaleType="fitXY"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="@dimen/_2sdp"
             />
         <TextView
             android:id="@+id/logoutButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Logout"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:gravity="center"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_2sdp"
             android:clickable="true"
             />
     </GridLayout>
