@@ -22,7 +22,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarSignUp"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_40sdp"
+        android:layout_height="wrap_content"
         android:background="#E17F00"
         android:title="log In"
         android:textColor="#000"

@@ -14,7 +14,7 @@
         <Toolbar
             android:id="@+id/orderToolbar"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_43sdp"
+            android:layout_height="wrap_content"
             android:titleTextColor="#FFF"
             android:background="#E17F00"
             />

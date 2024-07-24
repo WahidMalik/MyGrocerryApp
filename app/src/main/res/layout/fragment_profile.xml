@@ -86,7 +86,7 @@
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
             android:src="@drawable/homeicon"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:scaleType="fitXY"
             />
         <TextView
@@ -95,7 +95,7 @@
             android:text="Address"
             android:textSize="@dimen/_15ssp"
             android:gravity="center"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_20sdp"
             />
         <ImageButton
@@ -105,7 +105,7 @@
             android:src="@drawable/forward"
             android:scaleType="fitXY"
             android:layout_gravity="end"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:background="#FFF"
             />
         <ImageView
@@ -113,7 +113,7 @@
             android:layout_height="@dimen/_20sdp"
             android:src="@drawable/edit"
             android:scaleType="fitXY"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -122,7 +122,7 @@
             android:textSize="@dimen/_15ssp"
             android:gravity="center"
             android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <ImageButton
             android:id="@+id/notificaionsImageButton"
@@ -132,14 +132,14 @@
             android:scaleType="fitXY"
             android:layout_gravity="end"
             android:background="#FFF"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <ImageView
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
             android:src="@drawable/notifications"
             android:scaleType="fitXY"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -148,7 +148,7 @@
             android:textSize="@dimen/_15ssp"
             android:gravity="center"
             android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <ImageButton
             android:layout_width="@dimen/_20sdp"
@@ -157,14 +157,14 @@
             android:scaleType="fitXY"
             android:layout_gravity="end"
             android:background="#FFF"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <ImageView
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
             android:src="@drawable/wallet"
             android:scaleType="fitXY"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -173,7 +173,7 @@
             android:textSize="@dimen/_15ssp"
             android:gravity="center"
             android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <ImageButton
             android:id="@+id/walletProfileButton"
@@ -183,13 +183,14 @@
             android:scaleType="fitXY"
             android:layout_gravity="end"
             android:background="#FFF"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <ImageView
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
             android:src="@drawable/policy"
             android:scaleType="fitXY"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -198,7 +199,7 @@
             android:textSize="@dimen/_15ssp"
             android:gravity="center"
             android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <ImageButton
             android:id="@+id/policyProfileButton"
@@ -208,23 +209,23 @@
             android:scaleType="fitXY"
             android:layout_gravity="end"
             android:background="#FFF"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <ImageView
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
             android:src="@drawable/help"
             android:scaleType="fitXY"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Help and center"
-            android:textSize="20sp"
+            android:textSize="@dimen/_15ssp"
             android:gravity="center"
             android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <ImageButton
             android:id="@+id/helpProfileButton"
@@ -233,7 +234,7 @@
             android:src="@drawable/forward"
             android:scaleType="fitXY"
             android:layout_gravity="end"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:background="#FFF"
             />
         <ImageView
@@ -241,7 +242,7 @@
             android:layout_height="@dimen/_20sdp"
             android:src="@drawable/logout"
             android:scaleType="fitXY"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             />
         <TextView
             android:id="@+id/logoutButton"
@@ -251,7 +252,7 @@
             android:textSize="@dimen/_15ssp"
             android:gravity="center"
             android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:clickable="true"
             />
     </GridLayout>
