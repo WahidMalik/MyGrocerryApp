@@ -14,10 +14,10 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="@drawable/customsearch"
-        android:padding="10dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginStart="15dp"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_15sdp"
         android:layout_gravity="center_horizontal">
 
         <ImageView
@@ -25,19 +25,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/search"
-            android:padding="5dp"
+            android:padding="@dimen/_5sdp"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="10dp" />
+            android:layout_marginStart="@dimen/_10sdp" />
 
         <EditText
             android:id="@+id/searchEditText"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/_1sdp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:hint="Search"
             android:inputType="text"
-            android:padding="5dp"
+            android:padding="@dimen/_5sdp"
             android:textColorHint="#888"
             android:background="@null"
             android:layout_gravity="center_vertical" />
@@ -46,7 +46,7 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/_1sdp"
         android:layout_weight="1">
 
         <LinearLayout
@@ -56,8 +56,8 @@
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:layout_margin="10dp">
+                android:layout_height="@dimen/_120sdp"
+                android:layout_margin="@dimen/_10sdp">
 
                 <ImageView
                     android:id="@+id/horizontalScrollImage"
@@ -74,32 +74,29 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
                     android:clickable="true"
                     android:text="Categories"
                     android:textColor="#000"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/_12ssp"
                     android:textStyle="bold"
-                    android:minWidth="85dp"
-                    android:minHeight="35dp"
                     />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_25sdp"
                     android:layout_gravity="center"
-                    android:layout_marginStart="180dp"
+                    android:layout_marginStart="@dimen/_150sdp"
                     android:background="@drawable/transparentbutton"
                     android:gravity="center"
                     android:text="See more"
-                    android:textSize="10sp"
+                    android:textSize="@dimen/_10sdp"
                     android:textAllCaps="false"
                     android:textColor="#E17F00"
                     android:textStyle="bold"
-                    android:minWidth="85dp"
-                    android:minHeight="35dp" />
+                     />
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -108,7 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scrollbars="horizontal"
-                android:layout_margin="5dp"
+                android:layout_margin="@dimen/_5sdp"
                 />
 
             <LinearLayout
@@ -120,31 +117,29 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
                     android:clickable="true"
                     android:textColor="#000"
                     android:text="Popular Deals"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/_12ssp"
                     android:textStyle="bold" />
 
 
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_25sdp"
                     android:layout_gravity="center"
-                    android:layout_marginStart="180dp"
+                    android:layout_marginStart="@dimen/_130sdp"
                     android:background="@drawable/transparentbutton"
                     android:gravity="center"
                     android:text="Ends in"
-                    android:textSize="10sp"
+                    android:textSize="@dimen/_10ssp"
                     android:textAllCaps="false"
                     android:textColor="#E17F00"
                     android:textStyle="bold"
-                    android:minWidth="85dp"
-                    android:minHeight="35dp"
                 />
             </LinearLayout>
 
