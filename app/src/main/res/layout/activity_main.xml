@@ -36,7 +36,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/signUpButton"
                 android:layout_width="@dimen/_75sdp"
-                android:layout_height="@dimen/_43sdp"
+                android:layout_height="@dimen/_35sdp"
                 android:background="@drawable/smallbutton"
                 android:text="Sign Up"
                 android:textAllCaps="false"
@@ -48,7 +48,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/LogInButton"
                 android:layout_width="@dimen/_75sdp"
-                android:layout_height="@dimen/_43sdp"
+                android:layout_height="@dimen/_35sdp"
                 android:background="@drawable/smallbutton"
                 android:text="Login"
                 android:textAllCaps="false"

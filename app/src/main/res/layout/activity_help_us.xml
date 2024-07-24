@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/helpToolbar"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_43sdp"
+            android:layout_height="wrap_content"
             android:background="#E17F00"
             app:titleTextColor="#FFF"
             />
@@ -25,7 +25,7 @@
     <LinearLayout
         android:id="@+id/searchContainer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/_40sdp"
         android:orientation="horizontal"
         android:background="@drawable/customsearch"
         android:padding="@dimen/_10sdp"
@@ -39,7 +39,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/search"
-            android:padding="@dimen/_3sdp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="@dimen/_10sdp" />
 
@@ -51,7 +50,6 @@
             android:layout_marginStart="@dimen/_10sdp"
             android:hint="Search"
             android:inputType="text"
-            android:padding="@dimen/_3sdp"
             android:textColorHint="#888"
             android:background="@null"
             android:layout_gravity="center_vertical" />
@@ -76,136 +74,166 @@
             android:textStyle="bold"
             />
         <GridLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:rowCount="4"
             android:columnCount="4"
             android:layout_marginTop="@dimen/_8sdp"
-            android:layout_marginLeft="@dimen/_15sdp"
-            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
             android:layout_marginBottom="@dimen/_8sdp">
 
             <ImageView
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="@dimen/_6sdp"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
 
             <ImageView
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="@dimen/_6sdp"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                />
 
             <ImageView
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="@dimen/_6sdp"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                />
 
             <ImageView
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:background="#000"
-                android:layout_margin="@dimen/_6sdp"
-                android:layout_gravity="center"/>
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="Track my\norder"
-                android:textSize="@dimen/_11ssp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                />
+                android:textSize="@dimen/_9ssp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="Return my\norder"
-                android:textSize="@dimen/_11ssp"
-                android:layout_gravity="center"
-                android:gravity="center"
+                android:textSize="@dimen/_9ssp"
+                android:layout_marginBottom="@dimen/_10sdp"
                 />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="Cancel my\norder"
-                android:textSize="@dimen/_11ssp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                />
+                android:textSize="@dimen/_9ssp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:text="My Payment\noption"
-                android:textSize="@dimen/_11ssp"
+                android:textSize="@dimen/_9ssp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="#000"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="#000"
                 android:layout_gravity="center"
                 android:gravity="center"
-                />
-            <ImageView
-                android:layout_width="@dimen/_40sdp"
-                android:layout_height="@dimen/_40sdp"
-                android:background="#000"
-                android:layout_margin="@dimen/_6sdp"
-                android:layout_gravity="center"/>
-
-            <ImageView
-                android:layout_width="@dimen/_40sdp"
-                android:layout_height="@dimen/_40sdp"
-                android:background="#000"
-                android:layout_margin="@dimen/_6sdp"
-                android:layout_gravity="center"/>
-
-            <ImageView
-                android:layout_width="@dimen/_40sdp"
-                android:layout_height="@dimen/_40sdp"
-                android:background="#000"
-                android:layout_margin="@dimen/_6sdp"
-                android:layout_gravity="center"/>
-
-            <ImageView
-                android:layout_width="@dimen/_40sdp"
-                android:layout_height="@dimen/_40sdp"
-                android:background="#000"
-                android:layout_margin="@dimen/_6sdp"
-                android:layout_gravity="center"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Reset \nPassword"
-                android:textSize="@dimen/_11ssp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="My Profile"
-                android:textSize="@dimen/_11ssp"
-                android:gravity="center"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Address\nBook"
-                android:textSize="@dimen/_11ssp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Wallet"
-                android:textSize="@dimen/_11ssp"
                 android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="#000"
+                android:layout_gravity="center"
                 android:gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"/>
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="#000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Reset\nPassword"
+                android:textSize="@dimen/_9ssp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="My Profile"
+                android:textSize="@dimen/_9ssp"
+                android:layout_marginBottom="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Address\nBook"
+                android:textSize="@dimen/_9ssp"
+                android:layout_margin="@dimen/_5sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Wallet"
+                android:textSize="@dimen/_9ssp"
+                android:layout_marginBottom="@dimen/_10sdp"
                 />
 
         </GridLayout>
+
     </LinearLayout>
 
     <LinearLayout

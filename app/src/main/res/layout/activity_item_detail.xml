@@ -239,7 +239,7 @@
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginBottom="@dimen/_5sdp"
-                android:background="@drawable/transparentblack"
+                android:background="#000"
                 />
 
             <LinearLayout
@@ -289,7 +289,7 @@
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginBottom="@dimen/_5sdp"
-                android:background="@drawable/transparentblack"
+                android:background="#000"
                 />
 
             <LinearLayout
@@ -340,7 +340,7 @@
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginBottom="@dimen/_5sdp"
-                android:background="@drawable/transparentblack"
+                android:background="#000"
                 />
         <GridLayout
             android:layout_width="match_parent"
@@ -359,8 +359,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="100% trusted from authorized brand"
                 android:layout_marginLeft="@dimen/_10sdp"
+                android:text="100% trusted from authorized brand"
                 android:textSize="@dimen/_10ssp"
                 android:layout_marginBottom="@dimen/_7sdp"
                 />
@@ -369,9 +369,9 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/forward"
                 android:scaleType="fitXY"
-                android:layout_marginLeft="@dimen/_10sdp"
                 android:background="#FFF"
                 android:layout_marginBottom="@dimen/_7sdp"
+                android:layout_marginRight="@dimen/_10sdp"
                 android:layout_gravity="end"
                 />
             <TextView
@@ -405,7 +405,7 @@
             android:layout_height="@dimen/_1sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:background="@drawable/transparentblack"
+            android:background="#000"
             />
 
         <GridLayout
@@ -425,8 +425,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Brand SKU"
-                android:layout_marginLeft="@dimen/_120sdp"
-                android:textSize="@dimen/_13ssp"
+                android:layout_marginLeft="@dimen/_110sdp"
+                android:textSize="@dimen/_10ssp"
                 android:layout_marginBottom="@dimen/_7sdp"
                 android:layout_gravity="center"
                 />
@@ -435,96 +435,22 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/forward"
                 android:scaleType="fitXY"
-                android:layout_marginLeft="@dimen/_10sdp"
                 android:background="#FFF"
+                android:layout_marginRight="@dimen/_10sdp"
                 android:layout_marginBottom="@dimen/_7sdp"
                 android:layout_gravity="end"
                 />
 
         </GridLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_1sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginBottom="@dimen/_5sdp"
-            android:background="@drawable/transparentblack"
-            />
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:rowCount="2"
-            android:columnCount="2">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Service:"
-                android:layout_marginLeft="@dimen/_10sdp"
-                android:textSize="@dimen/_15ssp"
-                android:layout_marginBottom="@dimen/_7sdp"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="100% trusted from authorized brand"
-                android:layout_marginLeft="@dimen/_10sdp"
-                android:textSize="@dimen/_10ssp"
-                android:layout_marginBottom="@dimen/_7sdp"
-                />
 
-            <TextView
-
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="24 days free and easy return"
-                android:layout_marginLeft="@dimen/_12sdp"
-                android:textSize="@dimen/_10ssp"
-                android:layout_marginBottom="@dimen/_7sdp"
-                />
-        </GridLayout>
-
-            <GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:rowCount="1"
-                android:columnCount="3">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Specification:"
-                    android:layout_marginLeft="@dimen/_10sdp"
-                    android:textSize="@dimen/_15ssp"
-                    android:layout_marginBottom="@dimen/_7sdp"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Brand, SKU"
-                    android:layout_marginLeft="@dimen/_100sdp"
-                    android:textSize="@dimen/_10ssp"
-                    android:layout_marginBottom="@dimen/_7sdp"
-                    />
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/forward"
-                    android:scaleType="fitXY"
-                    android:layout_marginLeft="@dimen/_10sdp"
-                    android:layout_marginTop="@dimen/_5sdp"
-                    android:background="#FFF"
-                    android:layout_gravity="end"
-                    />
-            </GridLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/_1sdp"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:background="@drawable/transparentblack"
+            android:background="#000"
             />
             <GridLayout
                 android:layout_width="match_parent"
@@ -563,7 +489,7 @@
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginBottom="@dimen/_5sdp"
-                android:background="@drawable/transparentblack"
+                android:background="#000"
                 />
         <TextView
             android:layout_width="wrap_content"
@@ -582,31 +508,39 @@
             android:columnCount="2">
 
             <ImageView
-                android:layout_width="@dimen/_140sdp"
-                android:layout_height="@dimen/_150sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_130sdp"
                 android:src="@drawable/b"
-                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
                 android:background="@drawable/transparentblack"
                 />
             <ImageView
-                android:layout_width="@dimen/_140sdp"
-                android:layout_height="@dimen/_150sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_130sdp"
                 android:src="@drawable/b"
-                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_gravity="end"
                 android:background="@drawable/transparentblack"
                 />
             <ImageView
-                android:layout_width="@dimen/_140sdp"
-                android:layout_height="@dimen/_150sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_130sdp"
                 android:src="@drawable/b"
-                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:background="@drawable/transparentblack"
                 />
             <ImageView
-                android:layout_width="@dimen/_140sdp"
-                android:layout_height="@dimen/_150sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_130sdp"
                 android:src="@drawable/b"
-                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_gravity="end"
                 android:background="@drawable/transparentblack"
                 />
         </GridLayout>

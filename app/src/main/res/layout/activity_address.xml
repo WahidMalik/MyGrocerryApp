@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/addressProfileToolbar"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_43sdp"
+            android:layout_height="wrap_content"
             android:background="#E17F00"
             app:titleTextColor="#FFF"
             />
@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:text="House # 110-A Seham Rawalpindi"
         android:layout_margin="@dimen/_10sdp"
-        android:textSize="@dimen/_13ssp"
+        android:textSize="@dimen/_12ssp"
         android:textStyle="bold"
         />
     <TextView
@@ -94,7 +94,7 @@
         android:layout_height="wrap_content"
         android:text="03025159977"
         android:layout_marginLeft="@dimen/_10sdp"
-        android:textSize="@dimen/_13ssp" />
+        android:textSize="@dimen/_12ssp" />
 
     <View
         android:layout_width="match_parent"
@@ -160,7 +160,7 @@
         android:layout_height="wrap_content"
         android:text="House # 110-A Seham Rawalpindi"
         android:layout_margin="@dimen/_10sdp"
-        android:textSize="@dimen/_13ssp"
+        android:textSize="@dimen/_12ssp"
         android:textStyle="bold"
         />
     <TextView
@@ -168,6 +168,6 @@
         android:layout_height="wrap_content"
         android:text="03025159977"
         android:layout_marginLeft="@dimen/_10sdp"
-        android:textSize="@dimen/_13ssp" />
+        android:textSize="@dimen/_12ssp" />
 
 </LinearLayout>

@@ -38,8 +38,8 @@
 
             <ImageButton
                 android:id="@+id/justforyoubtn"
-                android:layout_width="@dimen/_50sdp"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:src="@drawable/profileicon"
                 android:scaleType="fitXY"
                 android:background="#FFF"
@@ -55,8 +55,8 @@
 
             <ImageButton
                 android:id="@+id/grocerryandpetsbtn"
-                android:layout_width="@dimen/_50sdp"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:background="#FFF"
                 android:src="@drawable/grocerry"
                 android:scaleType="fitXY"
@@ -72,8 +72,8 @@
 
             <ImageButton
                 android:id="@+id/motherandbabybtn"
-                android:layout_width="@dimen/_50sdp"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:background="#FFF"
                 android:src="@drawable/baby"
@@ -88,8 +88,8 @@
 
             <ImageButton
                 android:id="@+id/homeandstylebtn"
-                android:layout_width="@dimen/_50sdp"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:src="@drawable/bed"
                 android:scaleType="fitXY"
@@ -104,8 +104,8 @@
 
             <ImageButton
                 android:id="@+id/sportsandourdoorsbtn"
-                android:layout_width="@dimen/_50sdp"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:src="@drawable/football"
                 android:scaleType="fitXY"
