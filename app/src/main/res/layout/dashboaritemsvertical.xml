@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="10dp"
-    android:layout_margin="10dp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    android:layout_margin="@dimen/_10sdp"
     android:orientation="vertical">
 
     <RelativeLayout
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_margin="@dimen/_5sdp"
         >
 
         <ImageButton
@@ -26,10 +26,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="15dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_15sdp"
             android:background="@drawable/smallbutton"
-            android:padding="4dp"
+            android:padding="@dimen/_6sdp"
             android:textColor="#FFFFFF" />
     </RelativeLayout>
 
@@ -38,25 +38,25 @@
         android:id="@+id/productname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
-        android:textSize="15sp"
+        android:layout_marginTop="@dimen/_140sdp"
+        android:textSize="@dimen/_13ssp"
         android:textColor="#000"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="@dimen/_10sdp"
         android:textStyle="bold" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/productAddTocartButton"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="@dimen/_30sdp"
         android:background="@drawable/smallbutton"
         android:text="Add to cart"
         android:textAllCaps="false"
-        android:textSize="15sp"
+        android:textSize="@dimen/_13ssp"
         android:gravity="center"
         android:textColor="#FFF"
-        android:layout_marginTop="210dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"/>
+        android:layout_marginTop="@dimen/_170sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"/>
 
 
 </androidx.cardview.widget.CardView>

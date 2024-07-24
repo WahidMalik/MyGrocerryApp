@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".UseLocation">
 
     <TextView
@@ -13,19 +14,19 @@
         android:layout_height="wrap_content"
         android:text="Grocery App wants to take your location"
         android:layout_gravity="center"
-        android:layout_marginTop="250dp"
+        android:textSize="@dimen/_12ssp"
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="300dp"
-        android:layout_height="45dp"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_33sdp"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="@dimen/_40sdp"
         android:text="Use My Location"
         android:textColor="#FFF"
-        android:textSize="20sp"
+        android:textSize="@dimen/_15ssp"
         android:textAllCaps="false"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/_20sdp"
         android:background="@drawable/smallbutton"
         android:gravity="center"
         />
