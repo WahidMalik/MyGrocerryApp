@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/helpToolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_43sdp"
             android:background="#E17F00"
             app:titleTextColor="#FFF"
             />
@@ -28,10 +28,10 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="@drawable/customsearch"
-        android:padding="10dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginStart="15dp"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_15sdp"
         android:layout_gravity="center_horizontal">
 
         <ImageView
@@ -39,19 +39,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/search"
-            android:padding="5dp"
+            android:padding="@dimen/_3sdp"
             android:layout_gravity="center_vertical"
-            android:layout_marginStart="10dp" />
+            android:layout_marginStart="@dimen/_10sdp" />
 
         <EditText
             android:id="@+id/searchEditText"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/_1sdp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:hint="Search"
             android:inputType="text"
-            android:padding="5dp"
+            android:padding="@dimen/_3sdp"
             android:textColorHint="#888"
             android:background="@null"
             android:layout_gravity="center_vertical" />
@@ -60,9 +60,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:orientation="vertical"
         android:background="@drawable/transparentblack"
         android:gravity="center"
@@ -71,8 +71,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Self Service"
-            android:layout_marginTop="5dp"
-            android:textSize="18dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_13ssp"
             android:textStyle="bold"
             />
         <GridLayout
@@ -80,43 +80,44 @@
             android:layout_height="wrap_content"
             android:rowCount="4"
             android:columnCount="4"
-            android:layout_marginTop="8dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginBottom="8dp">
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_8sdp">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/_6sdp"
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/_6sdp"
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/_6sdp"
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/_6sdp"
                 android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Track my\norder"
+                android:textSize="@dimen/_11ssp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
@@ -124,6 +125,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Return my\norder"
+                android:textSize="@dimen/_11ssp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
@@ -131,6 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cancel my\norder"
+                android:textSize="@dimen/_11ssp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
@@ -138,41 +141,43 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="My Payment\noption"
+                android:textSize="@dimen/_11ssp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/_6sdp"
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/_6sdp"
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/_6sdp"
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
                 android:background="#000"
-                android:layout_margin="10dp"
+                android:layout_margin="@dimen/_6sdp"
                 android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Reset \nPassword"
+                android:textSize="@dimen/_11ssp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
@@ -180,12 +185,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="My Profile"
+                android:textSize="@dimen/_11ssp"
                 android:gravity="center"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Address\nBook"
+                android:textSize="@dimen/_11ssp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
@@ -193,7 +200,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Wallet"
-                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/_11ssp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:gravity="center"
                 />
 
@@ -203,9 +211,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:orientation="vertical"
         android:background="@drawable/transparentblack"
         >
@@ -213,8 +221,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Top Questions"
-            android:layout_marginTop="5dp"
-            android:textSize="18dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_13ssp"
             android:textStyle="bold"
             android:layout_gravity="center"
             />
@@ -223,15 +231,15 @@
             android:layout_height="wrap_content"
             android:rowCount="3"
             android:columnCount="2"
-            android:layout_marginTop="8dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginBottom="8dp">
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_8sdp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_gravity="left"
                 android:gravity="left"
                 android:text="How do I track my order?"/>
@@ -242,12 +250,12 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/forward"
                 android:layout_gravity="end"
-                android:layout_marginLeft="150dp"
+                android:layout_marginLeft="@dimen/_110sdp"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_gravity="left"
                 android:gravity="left"
                 android:text="How do I track my order?"/>
@@ -263,7 +271,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_gravity="left"
                 android:gravity="left"
                 android:text="How do I track my order?"/>
@@ -284,9 +292,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:orientation="vertical"
         android:background="@drawable/transparentblack"
         >
@@ -294,23 +302,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chat with us"
-            android:layout_marginTop="5dp"
-            android:textSize="18dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_13ssp"
             android:textStyle="bold"
             android:layout_gravity="center"
             />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/livechatButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_35sdp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:text="Live chat, 24/7"
             android:textColor="#000"
             android:textAllCaps="false"
-            android:padding="5dp"
-            android:layout_marginBottom="10dp"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
             android:background="@drawable/smallbutton"
             />
     </LinearLayout>

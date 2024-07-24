@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +8,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".PaymentOption">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -18,15 +25,15 @@
             android:background="#E17F00"
             app:titleTextColor="#FFF"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="@dimen/_43sdp"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:background="@drawable/transparentblack"
         android:orientation="vertical"
         android:gravity="center"
@@ -37,32 +44,30 @@
             android:layout_height="wrap_content"
             android:rowCount="1"
             android:columnCount="3"
-            android:paddingBottom="10dp"
-            android:paddingTop="10dp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
             >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/policy"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_gravity="center"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cash On Delievery"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="@dimen/_12ssp"
                 />
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 />
-
-
         </GridLayout>
 
 
@@ -71,9 +76,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:background="@drawable/transparentblack"
         android:orientation="vertical"
         android:gravity="center"
@@ -84,24 +89,24 @@
             android:layout_height="wrap_content"
             android:rowCount="1"
             android:columnCount="3"
-            android:paddingBottom="10dp"
-            android:paddingTop="10dp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
             >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/wallet"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_gravity="center"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="My Wallet"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="@dimen/_12ssp"
                 />
             <CheckBox
                 android:layout_width="wrap_content"
@@ -118,9 +123,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:background="@drawable/transparentblack"
         android:orientation="vertical"
         android:gravity="center"
@@ -131,24 +136,24 @@
             android:layout_height="wrap_content"
             android:rowCount="1"
             android:columnCount="3"
-            android:paddingBottom="10dp"
-            android:paddingTop="10dp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
             >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/policy"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_gravity="center"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bank"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="@dimen/_13ssp"
                 />
             <CheckBox
                 android:layout_width="wrap_content"
@@ -165,9 +170,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:background="@drawable/transparentblack"
         android:orientation="vertical"
         android:gravity="center"
@@ -178,24 +183,24 @@
             android:layout_height="wrap_content"
             android:rowCount="1"
             android:columnCount="3"
-            android:paddingBottom="10dp"
-            android:paddingTop="10dp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
             >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/policy"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_gravity="center"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Easypaisa"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="@dimen/_13ssp"
                 />
             <CheckBox
                 android:layout_width="wrap_content"
@@ -212,9 +217,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
         android:background="@drawable/transparentblack"
         android:orientation="vertical"
         android:gravity="center"
@@ -225,24 +230,24 @@
             android:layout_height="wrap_content"
             android:rowCount="1"
             android:columnCount="3"
-            android:paddingBottom="10dp"
-            android:paddingTop="10dp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
             >
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/policy"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_gravity="center"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Jazzcash"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="@dimen/_13ssp"
                 />
             <CheckBox
                 android:layout_width="wrap_content"
@@ -259,15 +264,16 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/paymentProceeedButton"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_33sdp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:text="Proceed"
         android:textColor="#FFF"
-        android:textSize="20sp"
+        android:textSize="@dimen/_15ssp"
         android:textAllCaps="false"
         android:background="@drawable/smallbutton"
         android:gravity="center"
         />
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

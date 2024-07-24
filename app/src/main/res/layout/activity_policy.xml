@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/policyToolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_43sdp"
             android:background="#E17F00"
             app:titleTextColor="#FFF"
             />
@@ -26,29 +26,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Privacy and Policy"
-        android:textSize="23sp"
+        android:textSize="@dimen/_18ssp"
         android:textStyle="bold"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to [Your E-commerce App Name] (“we”, “our”, “us”).
-        We are committed to protecting your privacy and ensuring that your personal information
+We are committed to protecting your privacy and ensuring that your personal information
 is handled in a safe and responsible manner. This Privacy Policy outlines how we collect,
 use, disclose, and safeguard your information when you use our application"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Terms and conditions"
-        android:textSize="23sp"
+        android:textSize="@dimen/_18ssp"
         android:textStyle="bold"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -59,7 +59,7 @@ purposes and in a manner that does not infringe the rights of, restrict, or inhi
 anyone else's use and enjoyment of the app. You are responsible for maintaining the
 confidentiality of your account information and for all activities that occur under your account."
 
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         />
 </LinearLayout>

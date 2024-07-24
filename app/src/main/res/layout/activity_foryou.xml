@@ -18,61 +18,63 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbarForyou"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_43sdp"
             android:background="#E17F00"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_25sdp"
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="90dp"
+            android:layout_width="@dimen/_60sdp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="@dimen/_6sdp"
             android:gravity="center"
             android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/justforyoubtn"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
                 android:src="@drawable/profileicon"
                 android:scaleType="fitXY"
                 android:background="#FFF"
-                android:layout_margin="5dp"/>
+                android:layout_margin="@dimen/_5sdp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Just for you"
                 android:gravity="center"
                 android:textColor="#000"
-                android:layout_margin="5dp"/>
+                android:textSize="@dimen/_11ssp"
+                android:layout_margin="@dimen/_3sdp"/>
 
             <ImageButton
                 android:id="@+id/grocerryandpetsbtn"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
                 android:background="#FFF"
                 android:src="@drawable/grocerry"
                 android:scaleType="fitXY"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="@dimen/_5sdp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Grocerry and Pets"
+                android:textSize="@dimen/_11ssp"
                 android:background="#FFF"
                 android:gravity="center"
                 android:textColor="#000"/>
 
             <ImageButton
                 android:id="@+id/motherandbabybtn"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginTop="10dp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:background="#FFF"
                 android:src="@drawable/baby"
                 android:scaleType="fitXY" />
@@ -81,13 +83,14 @@
                 android:layout_height="wrap_content"
                 android:text="Mother and Baby"
                 android:gravity="center"
+                android:textSize="@dimen/_11ssp"
                 android:textColor="#000"/>
 
             <ImageButton
                 android:id="@+id/homeandstylebtn"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginTop="10dp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:src="@drawable/bed"
                 android:scaleType="fitXY"
                 android:background="#FFF"/>
@@ -96,13 +99,14 @@
                 android:layout_height="wrap_content"
                 android:text="Home and Lifestyle"
                 android:gravity="center"
+                android:textSize="@dimen/_11ssp"
                 android:textColor="#000"/>
 
             <ImageButton
                 android:id="@+id/sportsandourdoorsbtn"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginTop="10dp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:src="@drawable/football"
                 android:scaleType="fitXY"
                 android:background="#FFF"/>
@@ -111,11 +115,12 @@
                 android:layout_height="wrap_content"
                 android:text="Sports and Outdoors"
                 android:gravity="center"
+                android:textSize="@dimen/_11ssp"
                 android:textColor="#000"/>
         </LinearLayout>
 
         <View
-            android:layout_width="2dp"
+            android:layout_width="@dimen/_2sdp"
             android:layout_height="match_parent"
             android:background="@android:color/darker_gray"/>
 

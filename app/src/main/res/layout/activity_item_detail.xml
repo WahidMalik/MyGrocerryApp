@@ -42,7 +42,11 @@
                 android:layout_height="wrap_content"
                 android:rowCount="2"
                 android:columnCount="2"
-                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+
                 >
                 <TextView
                     android:layout_width="wrap_content"
@@ -76,17 +80,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:background="#000"
-                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
                 />
             <GridLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:rowCount="4"
                 android:columnCount="3"
-                android:layout_marginTop="@dimen/_8sdp"
-                android:layout_marginLeft="@dimen/_5sdp"
-                android:layout_marginRight="@dimen/_5sdp"
-                android:paddingBottom="@dimen/_8sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
                 >
 
                 <ImageView
@@ -161,9 +168,9 @@
                     android:layout_marginBottom="@dimen/_7sdp"
                     />
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/circle"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:src="@drawable/circlewhite"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -184,13 +191,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:background="@drawable/transparentblack"
             >
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+
+                >
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -226,6 +238,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
                 android:background="@drawable/transparentblack"
                 />
 
@@ -245,7 +258,7 @@
                 android:text="-"
                 android:textStyle="bold"
                 android:textSize="@dimen/_20ssp"
-                android:layout_marginLeft="@dimen/_150sdp"
+                android:layout_marginLeft="@dimen/_160sdp"
 
                 />
                 <TextView
@@ -266,7 +279,7 @@
                     android:text="+"
                     android:textStyle="bold"
                     android:textSize="@dimen/_20ssp"
-                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_5ssp"
                     />
 
             </LinearLayout>
@@ -274,7 +287,8 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_1sdp"
-                android:layout_margin="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
                 android:background="@drawable/transparentblack"
                 />
 
@@ -325,11 +339,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
                 android:background="@drawable/transparentblack"
                 />
-
-
-
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -391,7 +403,8 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/_1sdp"
-            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:background="@drawable/transparentblack"
             />
 
@@ -432,7 +445,8 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/_1sdp"
-            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:background="@drawable/transparentblack"
             />
         <GridLayout
@@ -470,12 +484,87 @@
                 android:layout_marginBottom="@dimen/_7sdp"
                 />
         </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="1"
+                android:columnCount="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Specification:"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_15ssp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brand, SKU"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/forward"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="#FFF"
+                    android:layout_gravity="end"
+                    />
+            </GridLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/_1sdp"
-            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:background="@drawable/transparentblack"
             />
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="2"
+                android:columnCount="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Highlights:"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_15ssp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Brand Bazaar"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    />
+                <TextView />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24 days free and easy return"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:textSize="@dimen/_10ssp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    />
+            </GridLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/transparentblack"
+                />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -563,11 +652,19 @@
                 android:id="@+id/revieRecycle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
                 />
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:rowCount="1"
             android:columnCount="2">
 
@@ -594,6 +691,10 @@
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:rowCount="4"
             android:columnCount="2"
             >
@@ -646,7 +747,10 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/_1sdp"
-            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:background="@drawable/transparentblack"
             />
 
@@ -663,13 +767,19 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/_1sdp"
-            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:background="@drawable/transparentblack"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="About this brand"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
             android:textSize="@dimen/_14sdp"
             android:clickable="true"
             android:textStyle="bold"
@@ -695,7 +805,7 @@
             <ImageView
                 android:layout_width="@dimen/_30sdp"
                 android:layout_height="@dimen/_30sdp"
-                android:src="@drawable/circleimage"
+                android:src="@drawable/circleblack"
                 android:layout_gravity="end"
                 />
         </GridLayout>

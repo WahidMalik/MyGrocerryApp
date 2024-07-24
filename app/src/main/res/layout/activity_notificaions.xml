@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:fitsSystemWindows="true"
     tools:context=".Notificaions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -17,7 +24,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/notificaionsToolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_43sdp"
             android:background="#E17F00"
             app:titleTextColor="#FFF"
             />
@@ -28,17 +35,17 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_50sdp"
         >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Promotion"
-            android:textSize="19sp"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
         <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
@@ -48,8 +55,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/_10ssp"
             android:text="Be the first to find out about our upcomming deads"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
     </GridLayout>
 
@@ -58,17 +66,17 @@
         android:layout_height="wrap_content"
         android:rowCount="1"
         android:columnCount="2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sounds"
-            android:textSize="19sp"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
         <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
@@ -81,17 +89,17 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chats"
-            android:textSize="19sp"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
         <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
@@ -101,8 +109,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/_10ssp"
             android:text="Get the notification when you get the message "
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
     </GridLayout>
     <GridLayout
@@ -110,17 +119,17 @@
         android:layout_height="wrap_content"
         android:rowCount="1"
         android:columnCount="2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Vibrate"
-            android:textSize="19sp"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
         <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
@@ -133,17 +142,17 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Alerts and Reminders"
-            android:textSize="19sp"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
         <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
@@ -154,7 +163,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="update on price drops and live events"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
     </GridLayout>
     <GridLayout
@@ -162,17 +172,17 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Orders"
-            android:textSize="19sp"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
         <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
@@ -183,7 +193,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Get latest updates on your orders "
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
     </GridLayout>
     <GridLayout
@@ -191,17 +202,17 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Payments"
-            android:textSize="19sp"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
         <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
@@ -214,17 +225,17 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="App Updation"
-            android:textSize="19sp"
-            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/_15ssp"
+            android:layout_marginLeft="@dimen/_10sdp"
             />
         <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
@@ -232,5 +243,5 @@
             android:layout_gravity="end"
             />
     </GridLayout>
-
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
