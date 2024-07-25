@@ -48,7 +48,6 @@ class ProfileFragment : Fragment() {
         helpButton = view.findViewById(R.id.helpProfileButton)
         logoutButton = view.findViewById(R.id.logoutButton)
         profileToolbar.title = "Profile"
-        profileToolbar.setTitleTextColor(R.color.white)
 
         editProfileButton.setOnClickListener {
             val intent = Intent(requireContext(), EditProfile::class.java)
