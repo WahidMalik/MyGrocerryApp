@@ -82,6 +82,8 @@
             android:text="Please give your honest review and rating"
             android:layout_gravity="center"
             android:textSize="@dimen/_13ssp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_10sdp"
             />
 
@@ -122,7 +124,7 @@
                 android:textAllCaps="false"/>
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/logoutButton"
+                android:id="@+id/submitButton"
                 android:layout_width="@dimen/_65sdp"
                 android:layout_height="@dimen/_35sdp"
                 android:background="@drawable/smallbutton"

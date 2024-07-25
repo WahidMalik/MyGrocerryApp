@@ -31,6 +31,14 @@ class CompleteOrderRecycle(var context: Context, var arrayCompleteOrder: ArrayLi
                 dialog.setContentView(R.layout.reviewdialog)
                 dialog.setCancelable(false)
                 dialog.show()
+                val submitButton = dialog.findViewById<Button>(R.id.submitButton)
+                val cancelButton = dialog.findViewById<Button>(R.id.cancelButton)
+                submitButton.setOnClickListener {
+                    dialog.dismiss()
+                }
+                cancelButton.setOnClickListener {
+                    dialog.dismiss()
+                }
             }
         }
     }
