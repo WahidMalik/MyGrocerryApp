@@ -17,7 +17,7 @@
             android:id="@+id/addressProfileEditToolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:titleTextColor="#FFF"
+            app:titleTextColor="#FFF"
             android:background="#E17F00"
             />
     </com.google.android.material.appbar.AppBarLayout>

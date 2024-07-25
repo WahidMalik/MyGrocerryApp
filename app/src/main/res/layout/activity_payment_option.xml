@@ -24,6 +24,7 @@
             android:id="@+id/paymenttoolbar"
             android:background="#E17F00"
             app:titleTextColor="#FFF"
+            android:title="Payment Option"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_43sdp"/>
     </com.google.android.material.appbar.AppBarLayout>

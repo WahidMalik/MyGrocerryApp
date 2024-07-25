@@ -577,6 +577,7 @@
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:textSize="@dimen/_10ssp"
                 android:layout_marginBottom="@dimen/_7sdp"
+                android:layout_marginRight="@dimen/_10sdp"
                 android:layout_gravity="end"
                 android:textColor="#E17F00"
                 android:clickable="true"
@@ -614,6 +615,7 @@
                 android:layout_height="wrap_content"
                 android:text="View all "
                 android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
                 android:textSize="@dimen/_10ssp"
                 android:layout_marginBottom="@dimen/_7sdp"
                 android:layout_gravity="end"
@@ -685,7 +687,7 @@
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginRight="@dimen/_10sdp"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:background="@drawable/transparentblack"
+            android:background="#000"
             />
 
         <TextView
@@ -705,7 +707,7 @@
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginRight="@dimen/_10sdp"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:background="@drawable/transparentblack"
+            android:background="#000"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -736,12 +738,7 @@
                 android:textSize="@dimen/_12sdp"
                 android:clickable="true"
                 />
-            <ImageView
-                android:layout_width="@dimen/_30sdp"
-                android:layout_height="@dimen/_30sdp"
-                android:src="@drawable/circleblack"
-                android:layout_gravity="end"
-                />
+
         </GridLayout>
         <GridLayout
             android:layout_width="match_parent"

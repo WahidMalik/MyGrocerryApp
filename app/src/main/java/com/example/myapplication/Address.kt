@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -24,6 +25,7 @@ class Address : AppCompatActivity() {
         tempEditAddressButton = findViewById(R.id.tempEditAddressButton)
         addressToolbar = findViewById(R.id.addressProfileToolbar)
         addressToolbar.title = "Address"
+        setSupportActionBar(addressToolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
 
@@ -36,5 +38,14 @@ class Address : AppCompatActivity() {
             startActivity(intent)
         }
 
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                finish()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }

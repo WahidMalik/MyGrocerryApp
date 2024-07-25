@@ -18,6 +18,7 @@
             android:id="@+id/reviewCustomerImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:src="@drawable/circle"
             />
         <TextView
@@ -26,15 +27,18 @@
             android:layout_height="wrap_content"
             android:text="Wahid"
             android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_gravity="center"
             android:textSize="@dimen/_10ssp"
             android:layout_marginBottom="@dimen/_7sdp"
             />
         <RatingBar
             android:id="@+id/reviewratings"
-            android:layout_width="@dimen/_190sdp"
-            android:layout_height="@dimen/_35sdp"
-            android:layout_gravity="end"
-            />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_gravity="end"/>
     </GridLayout>
 
     <TextView
@@ -42,6 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_80sdp"
         android:layout_marginTop="@dimen/_10sdp"
+        android:background="#D0CBCB"
         />
     <LinearLayout
         android:layout_width="match_parent"

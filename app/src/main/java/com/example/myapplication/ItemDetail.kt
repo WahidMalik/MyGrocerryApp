@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -43,15 +44,17 @@ class ItemDetail : AppCompatActivity() {
         arrayReviewData = ArrayList()
         arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,4.5f))
         arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,5.0f))
-        arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,2.5f))
-        arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,3.5f))
-        arrayReviewData.add(ReviewData(R.drawable.profileicon,"Wahid","Wow ver nice",R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,R.drawable.b,1.3f))
-
         reviewRecycleView.layoutManager = LinearLayoutManager(this)
         reviewRecycleView.adapter = ReviewRecycle(this, arrayReviewData)
 
-
-
-
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                finish()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }
