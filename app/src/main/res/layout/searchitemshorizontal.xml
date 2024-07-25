@@ -21,7 +21,6 @@
             android:id="@+id/searchImageHorizontal"
             android:layout_width="@dimen/_50sdp"
             android:layout_height="@dimen/_50sdp"
-            android:background="@drawable/profileicon"
             android:scaleType="fitXY"/>
 
     </androidx.cardview.widget.CardView>
