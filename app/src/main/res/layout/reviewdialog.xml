@@ -98,6 +98,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="@dimen/_100sdp"
+            android:gravity="start|top"
+            android:padding="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_30sdp"
             android:layout_marginRight="@dimen/_30sdp"

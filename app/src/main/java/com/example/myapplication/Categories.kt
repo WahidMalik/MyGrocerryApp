@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 
-class Foryou : AppCompatActivity() {
+class Categories : AppCompatActivity() {
 
     lateinit var toolbarForyou: Toolbar
     lateinit var justforbtn: ImageButton
@@ -31,7 +31,7 @@ class Foryou : AppCompatActivity() {
         houseandlifestyle = findViewById(R.id.homeandstylebtn)
         sportsandpoutdoors = findViewById(R.id.sportsandourdoorsbtn)
         setSupportActionBar(toolbarForyou)
-        toolbarForyou.title = "Foryou"
+        supportActionBar?.title="Categories"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
         loadFragment(JustForyouFragment())

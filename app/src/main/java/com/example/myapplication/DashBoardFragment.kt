@@ -5,16 +5,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class DashBoardFragment : Fragment() {
 
+    lateinit var dashboarddetailsrecycle : RecyclerView
+    lateinit var arrayItemOffers : ArrayList<DashboardItemOffersData>
+    lateinit var adapterOffer : ItemOfferRecycle
     lateinit var recyclerItemsView: RecyclerView
     lateinit var horizontalRecycle: RecyclerView
     lateinit var rvadapter: ItemsRecycler
@@ -33,8 +33,19 @@ class DashBoardFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
+        dashboarddetailsrecycle= view.findViewById(R.id.dashboarddetailsrecycle)
         recyclerItemsView = view.findViewById(R.id.itemdashboardrecyler)
         horizontalRecycle = view.findViewById(R.id.horizontalRecycler)
+
+        arrayItemOffers = ArrayList()
+        arrayItemOffers.add(DashboardItemOffersData(R.drawable.b))
+        arrayItemOffers.add(DashboardItemOffersData(R.drawable.b))
+        arrayItemOffers.add(DashboardItemOffersData(R.drawable.b))
+        adapterOffer=ItemOfferRecycle(requireContext(),arrayItemOffers)
+        val horizontalView = LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
+        dashboarddetailsrecycle.layoutManager=horizontalView
+        dashboarddetailsrecycle.adapter=adapterOffer
+
 
         arrayProductimage = ArrayList()
         arrayProductimage.add(HorizontalRecycleData(R.drawable.b))

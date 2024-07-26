@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:background="#FFF"
     android:fitsSystemWindows="true"
-    tools:context=".Foryou">
+    tools:context=".Categories">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -18,7 +18,8 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbarForyou"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_43sdp"
+            android:layout_height="wrap_content"
+            app:titleTextColor="#FFF"
             android:background="#E17F00"/>
     </com.google.android.material.appbar.AppBarLayout>
 

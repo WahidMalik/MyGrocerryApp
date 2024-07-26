@@ -82,8 +82,9 @@
             android:exported="false"
             android:label="@string/title_activity_google_maps" />
         <activity
-            android:name=".Foryou"
-            android:exported="false" />
+            android:name=".Categories"
+            android:exported="false"
+            android:parentActivityName=".SignUp"/>
         <activity
             android:name=".DashBoard"
             android:exported="false" />
