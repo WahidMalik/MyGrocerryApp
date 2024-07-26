@@ -35,7 +35,7 @@ class SearchFragment : Fragment() {
 
         // Sample data for horizontal RecyclerView
         array = ArrayList()
-        array.add(SearchItemsHorizontal(R.drawable.profileicon, "Floor"))
+        array.add(SearchItemsHorizontal(R.drawable.b, "Floor"))
         array.add(SearchItemsHorizontal(R.drawable.b, "Floor"))
         array.add(SearchItemsHorizontal(R.drawable.b, "Floor"))
         array.add(SearchItemsHorizontal(R.drawable.b, "Floor"))

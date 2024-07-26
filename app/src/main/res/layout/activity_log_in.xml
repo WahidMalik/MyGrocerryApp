@@ -52,6 +52,7 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_marginRight="@dimen/_30sdp"
+            android:paddingLeft="@dimen/_10sdp"
             android:background="@drawable/editbox"
             android:layout_gravity="center"/>
 
@@ -69,6 +70,7 @@
             android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_33sdp"
+            android:paddingLeft="@dimen/_10sdp"
             android:background="@drawable/editbox"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_20sdp"
