@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             signupButton.setOnClickListener {
-                val signUpIntent = Intent(applicationContext,Categories::class.java)
+                val signUpIntent = Intent(applicationContext,SignUp::class.java)
                 startActivity(signUpIntent)
             }
 

@@ -47,7 +47,7 @@ class SearchFragment : Fragment() {
         searchItemHorizontalRecycle.layoutManager = horizontalLayoutManager
         searchItemHorizontalRecycle.adapter = rvadapter
 
-        // Sample data for vertical RecyclerView
+
         arrayvertical = ArrayList()
         arrayvertical.add(SearchItemVertical(R.drawable.b, "Sunsilk", "4.5/5", "Rs 550", "Rs 700"))
         arrayvertical.add(SearchItemVertical(R.drawable.b, "Clear", "4.5/5", "Rs 350", "Rs 700"))

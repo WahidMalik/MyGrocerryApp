@@ -1,10 +1,12 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -15,6 +17,7 @@ class DashBoardFragment : Fragment() {
     lateinit var dashboarddetailsrecycle : RecyclerView
     lateinit var arrayItemOffers : ArrayList<DashboardItemOffersData>
     lateinit var adapterOffer : ItemOfferRecycle
+    lateinit var categoryButton : TextView
     lateinit var recyclerItemsView: RecyclerView
     lateinit var horizontalRecycle: RecyclerView
     lateinit var rvadapter: ItemsRecycler
@@ -31,6 +34,12 @@ class DashBoardFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        categoryButton = view.findViewById(R.id.categoriesButton)
+        categoryButton.setOnClickListener {
+            val categoryIntent = Intent(requireContext(), Categories::class.java)
+            startActivity(categoryIntent)
+        }
 
 
         dashboarddetailsrecycle= view.findViewById(R.id.dashboarddetailsrecycle)
